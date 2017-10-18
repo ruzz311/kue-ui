@@ -13,8 +13,7 @@
     "build": "ember build",
     "start": "ember server",
     "test": "ember test",
-    "prepublishOnly": "rm -rf dist && ember build --environment=production",
-    "postinstall": "rm -rf dist && ember build --environment=production"
+    "prepublishOnly": "rm -rf dist && ember build --environment=production"
   },
   "devDependencies": {
     "authmaker-ember-simple-auth": "^2.1.3",
